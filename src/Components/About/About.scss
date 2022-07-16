@@ -1,0 +1,112 @@
+@import "../../shared/Styles.scss";
+
+.about_wrraper {
+    background: url("../../assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50rem;
+    
+    overflow: hidden;
+    position: relative;
+
+   
+    .about_content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        
+
+
+        .about_G {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            img {
+                width: 20rem;
+                margin: 0 auto;
+            }
+        }
+        .about_knif {
+            display: flex;
+           
+            align-items: center;
+           
+           gap: 1rem;
+            top: 7.5%;
+            position: absolute;
+          
+
+            img {
+                height: 42rem;
+            }
+            .about_knif_l,
+            .about_knif_r{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                 gap: 1rem;
+                width: 35rem;
+                h1{
+                    font-family: $--font-base;
+                    color: $--color-golden;
+                    font-size: 5rem;
+                    font-weight: 600;
+                   }
+                   p{
+                    font-family: $--font-alt;
+                    color: $--color-gray;
+                    line-height: 30px;
+                    font-weight: 600;
+                   }
+            }
+
+            .about_knif_l {
+              
+                text-align: end;
+            }
+
+            .about_knif_r{
+                text-align: start;
+                
+            
+            }
+            }
+           
+        }
+    }
+
+
+    @media screen and(max-width:990px) {
+        .about_wrraper{
+            height: 95rem;
+.about_content{
+
+    .about_knif{
+        flex-direction: column;
+        .about_knif_l,
+        .about_knif_r{
+            
+            h1{
+               
+                font-size: 4rem;
+            
+               }
+               p{
+                font-family: $--font-alt;
+                color: $--color-gray;
+                line-height: 30px;
+                padding: 0 7rem;
+                text-align: center;
+                font-weight: 600;
+               }
+        }
+    }
+}
+           
+        }
+    }
+    

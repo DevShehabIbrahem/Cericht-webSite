@@ -14,4 +14,11 @@ export const words = {
     buuton: "Explore Menu",
   },
   login: "Log In / Registration | Book Table",
+  about_left: "About Us",
+  about_dec_left:
+    "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Quis Pharetra Adipiscing Ultrices Vulputate Posuere Tristique. In Sed Odio Nec Aliquet Eu Proin Mauris Et..",
+  about_right: "Our History",
+
+  about_dec_right:
+    "Adipiscing Tempus Ullamcorper Lobortis Odio Tellus Arcu Volutpat. Risus Placerat Morbi Volutpat Habitasse Interdum Mi Aliquam In Sed Odio Nec Aliquet.",
 };
