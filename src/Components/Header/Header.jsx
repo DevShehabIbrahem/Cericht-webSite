@@ -14,7 +14,7 @@ const Header = () => {
         <img src={logo} alt="logo" />
       </div>
 
-      <div className="flex items-center text-[1.2rem]">
+      <div className="hidden  md:flex  items-center text-[1.2rem]">
         <NavLink
           to="/"
           className={({ isActive }) =>
@@ -57,7 +57,7 @@ const Header = () => {
         </NavLink>
       </div>
 
-      <div className=" text-[1.2rem] hover:text-[#DCCA87] transition-all duration-200 ease-in-out cursor-pointer">
+      <div className=" hidden  md:flex text-[1.2rem] hover:text-[#DCCA87] transition-all duration-200 ease-in-out cursor-pointer">
         {login}
       </div>
     </nav>

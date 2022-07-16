@@ -1,75 +1,45 @@
 .header_content {
+  padding: 3rem;
   font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+}
+.header_content .header_right {
+  flex: 1 1;
+  transform: scale(0.8);
 }
 .header_content .header_left {
-  width: 45rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  flex: 1 1;
 }
 .header_content .header_left h1 {
-  font-size: 5rem;
-  font-weight: 600;
-  color: #DCCA87;
   font-family: "Cormorant Upright", serif;
-}
-.header_content .header_left span:nth-child(3) {
-  color: #545454;
+  color: #DCCA87;
+  font-size: 6rem;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
+  .header_content {
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 0 2rem;
+  }
   .header_content .header_left {
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
   .header_content .header_left h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .header_content .header_left span {
-    font-size: 1rem;
+    line-height: 32px;
   }
-  .header_content .header_left span {
-    line-height: 38px;
-  }
-  .header_content .header_right {
-    transform: scale(0.6);
-    width: 50%;
-  }
-}
-@media screen and (max-width: 990px) {
-  .header_content {
-    gap: 0;
-    flex-direction: column;
-  }
-  .header_content .header_left {
-    width: 100%;
-  }
-  .header_content .header_left h1 {
-    font-size: 6rem;
-  }
-  .header_content .header_left span {
-    font-size: 1rem;
-  }
-  .header_content .header_left span {
-    line-height: 38px;
-  }
-  .header_content .header_right {
-    transform: scale(0.8);
-  }
-}
-@media screen and (max-width: 650px) {
-  .header_content {
-    width: 22rem;
-    padding: 0;
-    gap: 0;
-    flex-direction: column;
-  }
-  .header_content .header_left {
-    transform: scale(0.7);
-    width: 31rem;
-    padding-left: 2rem;
-  }
-  .header_content .header_left span {
-    line-height: 38px;
-  }
-  .header_content .header_right {
-    width: 100%;
-    transform: scale(0.8);
+  .header_content .header_right img {
+    width: 20rem;
   }
 }
