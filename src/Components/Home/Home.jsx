@@ -1,9 +1,10 @@
 import React from "react";
-import { HeaderSection } from "../../Components";
+import { HeaderSection, AboutSection } from "../../Components";
 const Home = () => {
   return (
     <>
       <HeaderSection />
+      <AboutSection />
     </>
   );
 };

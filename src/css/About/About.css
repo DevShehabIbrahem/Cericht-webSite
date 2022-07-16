@@ -1,0 +1,86 @@
+.about_wrraper {
+  background: url("../../assets/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 50rem;
+  overflow: hidden;
+  position: relative;
+}
+.about_wrraper .about_content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.about_wrraper .about_content .about_G {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.about_wrraper .about_content .about_G img {
+  width: 20rem;
+  margin: 0 auto;
+}
+.about_wrraper .about_content .about_knif {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  top: 7.5%;
+  position: absolute;
+}
+.about_wrraper .about_content .about_knif img {
+  height: 42rem;
+}
+.about_wrraper .about_content .about_knif .about_knif_l,
+.about_wrraper .about_content .about_knif .about_knif_r {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 35rem;
+}
+.about_wrraper .about_content .about_knif .about_knif_l h1,
+.about_wrraper .about_content .about_knif .about_knif_r h1 {
+  font-family: "Cormorant Upright", serif;
+  color: #DCCA87;
+  font-size: 5rem;
+  font-weight: 600;
+}
+.about_wrraper .about_content .about_knif .about_knif_l p,
+.about_wrraper .about_content .about_knif .about_knif_r p {
+  font-family: "Open Sans", sans-serif;
+  color: #545454;
+  line-height: 30px;
+  font-weight: 600;
+}
+.about_wrraper .about_content .about_knif .about_knif_l {
+  text-align: end;
+}
+.about_wrraper .about_content .about_knif .about_knif_r {
+  text-align: start;
+}
+
+@media screen and (max-width: 990px) {
+  .about_wrraper {
+    height: 95rem;
+  }
+  .about_wrraper .about_content .about_knif {
+    flex-direction: column;
+  }
+  .about_wrraper .about_content .about_knif .about_knif_l h1,
+.about_wrraper .about_content .about_knif .about_knif_r h1 {
+    font-size: 4rem;
+  }
+  .about_wrraper .about_content .about_knif .about_knif_l p,
+.about_wrraper .about_content .about_knif .about_knif_r p {
+    font-family: "Open Sans", sans-serif;
+    color: #545454;
+    line-height: 30px;
+    padding: 0 7rem;
+    text-align: center;
+    font-weight: 600;
+  }
+}
