@@ -9,7 +9,7 @@ const Header = () => {
   const { login } = words;
 
   return (
-    <nav className="Nabbar flex items-center justify-between pt-[1rem] px-[2rem]">
+    <nav className="Navbar flex items-center justify-between pt-[1rem] px-[2rem]">
       <div className=" w-[11rem] cursor-pointer">
         <img src={logo} alt="logo" />
       </div>
