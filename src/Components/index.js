@@ -5,6 +5,6 @@ export { default as Contact } from "./Contact/Contact.jsx";
 export { default as Gallery } from "./Gallery/Gallery.jsx";
 export { default as HeaderSection } from "./../pages/HeaderSection.jsx";
 
-export { default as Menu } from "./Menu/Menu.jsx";
+export { default as Menupages } from "../pages/Menupages.jsx";
 export { default as Newsletter } from "./Newsletter/Newsletter.jsx";
 export { default as VideoSection } from "./VideoSection/VideoSection.jsx";

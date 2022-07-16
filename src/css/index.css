@@ -11,7 +11,9 @@
 
 body {
   overflow-x: hidden;
-  background: #0C0C0C;
+  background: url("../assets/bg.png");
+  background-size: cover;
+  background-attachment: fixed;
   color: #fff;
 }
 

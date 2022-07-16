@@ -18,7 +18,9 @@
 
 body {
   overflow-x: hidden;
-  background:$--color-black;
+  background: url("../assets/bg.png");
+  background-size: cover;
+  background-attachment: fixed;
   color:  $--color-white;
 }
 

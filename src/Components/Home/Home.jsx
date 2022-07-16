@@ -1,10 +1,11 @@
 import React from "react";
-import { HeaderSection, AboutSection } from "../../Components";
+import { HeaderSection, AboutSection, Menupages } from "../../Components";
 const Home = () => {
   return (
     <>
       <HeaderSection />
       <AboutSection />
+      <Menupages />
     </>
   );
 };

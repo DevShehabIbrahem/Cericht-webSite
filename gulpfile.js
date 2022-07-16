@@ -8,6 +8,13 @@ gulp.task("sass", async () => {
     .pipe(compile())
     .pipe(gulp.dest("src/css"));
 });
+gulp.task("jsxfile", async () => {
+  gulp
+    .src("src/components/**/*.jsx")
+
+    .pipe(gulp.dest("src/pages"));
+});
+
 gulp.task("appsass", async () => {
   gulp.src("src/*.scss").pipe(compile()).pipe(gulp.dest("src/css"));
 });

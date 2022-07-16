@@ -1,5 +1,7 @@
 @import "../../shared/Styles.scss";
 .header_content {
+      background:$--color-black;
+
     padding: 3rem;
     font-family: $--font-alt;
     display: flex;
