@@ -55,32 +55,21 @@
 }
 @media screen and (max-width: 650px) {
   .header_content {
+    width: 22rem;
+    padding: 0;
     gap: 0;
     flex-direction: column;
   }
   .header_content .header_left {
     transform: scale(0.7);
-    max-width: 41rem;
+    width: 31rem;
     padding-left: 2rem;
   }
   .header_content .header_left span {
     line-height: 38px;
   }
   .header_content .header_right {
+    width: 100%;
     transform: scale(0.8);
-  }
-}
-@media screen and (max-width: 500px) {
-  .header_content {
-    padding: 0;
-    transform: scale(0.8);
-    gap: 0;
-    flex-direction: column;
-  }
-  .header_content .header_left {
-    width: 60rem;
-  }
-  .header_content .header_right {
-    width: 20rem;
   }
 }
