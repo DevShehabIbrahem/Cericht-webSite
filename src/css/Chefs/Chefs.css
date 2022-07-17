@@ -24,12 +24,12 @@
   color: #DCCA87;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
   .chef_content {
     margin: 5rem 0;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 0rem;
     padding: 0 2rem;
   }
   .chef_content .chef_left {
@@ -44,6 +44,6 @@
     line-height: 32px;
   }
   .chef_content .chef_right img {
-    width: 20rem;
+    width: 50rem;
   }
 }

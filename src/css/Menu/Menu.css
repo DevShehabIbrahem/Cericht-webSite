@@ -18,7 +18,6 @@
 
 @media screen and (max-width: 990px) {
   .menu .menu_content {
-    transform: scale(0.8);
     flex-direction: column;
   }
   .menu .menu_content img {
