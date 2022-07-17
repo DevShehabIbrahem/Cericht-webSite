@@ -14,7 +14,7 @@ const LeftSide = () => {
         {MenuData.map(({ title, dec, price }) => (
           <>
             <li className="flex flex-col">
-              <div className="flex justify-between">
+              <div className="flex  justify-between">
                 <h4>{title}</h4>
                 <div className="price">
                   <div />

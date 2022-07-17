@@ -12,7 +12,7 @@ const Menu = () => {
       <HeaderTitle hTitle={TagTitle} subTitle={MenuSub} />
       <div className="menu_content flex justify-around">
         <LeftSide />
-        <img src={MenuImage} alt="" />
+        <img src={MenuImage} alt="" className=" py-5 md:p-0" />
         <Right />
       </div>
     </div>

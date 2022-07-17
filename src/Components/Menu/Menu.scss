@@ -6,9 +6,12 @@
     .header_left{
      align-items: center;
      padding-top: 5rem;
+     span{
+        font-family: $--font-alt;
+     }
     }
     .menu_content{
-
+    align-items: center;
         img{
              width: 20rem;
              

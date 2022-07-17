@@ -5,6 +5,12 @@
   align-items: center;
   padding-top: 5rem;
 }
+.menu .header_left span {
+  font-family: "Open Sans", sans-serif;
+}
+.menu .menu_content {
+  align-items: center;
+}
 .menu .menu_content img {
   width: 20rem;
 }
