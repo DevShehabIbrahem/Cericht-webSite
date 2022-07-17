@@ -31,7 +31,7 @@ const Chefs = () => {
           <img src={quts} alt="quts" className="w-[4rem]" />
           <p>{chef_qute}</p>
         </div>
-        <p>{chef_para}</p>
+        <p className="leading-[2rem]">{chef_para}</p>
         <div className="chef_name flex flex-col gap-3">
           <span>{chef_name}</span>
           <span>{chef_postion}</span>
