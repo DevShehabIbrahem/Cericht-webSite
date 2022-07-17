@@ -7,7 +7,6 @@
 }
 .header_content .header_right {
   flex: 1 1;
-  transform: scale(0.8);
 }
 .header_content .header_left {
   display: flex;
@@ -23,7 +22,7 @@
 
 @media screen and (max-width: 768px) {
   .header_content {
-    padding: 5rem 2rem;
+    padding: 5rem 16px;
     display: flex;
     flex-direction: column;
     gap: 3rem;

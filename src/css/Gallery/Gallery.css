@@ -3,10 +3,10 @@
   align-items: center;
   padding: 0 6rem;
   font-family: "Open Sans", sans-serif;
+  gap: 8rem;
 }
 .Gallery_content .Gallery_right {
   flex: 1 1;
-  transform: scale(0.8);
 }
 .Gallery_content .Gallery_right .gallery_slide {
   height: 34rem;
@@ -54,6 +54,7 @@
     line-height: 32px;
   }
   .Gallery_content .Gallery_right .gallery_slide {
-    width: 100rem;
+    width: 20rem;
+    margin-top: 4rem;
   }
 }

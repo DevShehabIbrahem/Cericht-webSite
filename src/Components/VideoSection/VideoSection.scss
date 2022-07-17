@@ -3,6 +3,7 @@
     position: relative;
     overflow: hidden;
     padding: 2rem 0;
+   
    &::after{
     content: "";
     background-color: rgba(0 , 0, 0, 0.5);

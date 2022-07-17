@@ -19,6 +19,7 @@
   outline: none;
   background: none;
   border: 1px solid #DCCA87;
+  padding: 0 10px;
 }
 .Newsletter div button {
   height: 2.6rem;
@@ -30,6 +31,7 @@
 @media screen and (max-width: 900px) {
   .Newsletter {
     text-align: center;
+    margin: 0 1rem;
   }
   .Newsletter div .input-sub {
     height: 2.6rem;

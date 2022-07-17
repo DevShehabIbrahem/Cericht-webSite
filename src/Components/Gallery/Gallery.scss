@@ -5,10 +5,11 @@
     align-items: center;
     padding: 0 6rem;
     font-family: $--font-alt;
+    gap: 8rem;
    
  .Gallery_right{
     flex: 1 1;
-    transform: scale(0.8);
+    
     .gallery_slide{
         height: 34rem;
        
@@ -69,8 +70,10 @@
         }
 
         .Gallery_right{
+          
             .gallery_slide{
-                width: 100rem
+                width: 20rem;
+                margin-top: 4rem ;
             }
         }
     }

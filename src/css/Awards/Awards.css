@@ -3,10 +3,13 @@
   align-items: center;
   padding: 6rem;
   font-family: "Open Sans", sans-serif;
+  margin-bottom: 5rem;
 }
 .Awards_content .Awards_right {
   flex: 1 1;
-  transform: scale(0.8);
+}
+.Awards_content .Awards_right img {
+  width: 33rem;
 }
 .Awards_content .Awards_left {
   display: flex;
@@ -60,6 +63,7 @@
     line-height: 32px;
   }
   .Awards_content .Awards_right img {
-    width: 50rem;
+    width: 20rem;
+    margin-bottom: 2rem;
   }
 }

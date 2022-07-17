@@ -8,8 +8,10 @@
    
  .chef_right{
     flex: 1 1;
-    transform: scale(0.8);
     
+    img{
+        width: 33rem;
+    }
  }
 
     .chef_left{
@@ -61,7 +63,8 @@
 
         .chef_right{
             img{
-                width: 50rem;
+                width: 20rem;
+                margin-bottom: 2rem;
             }
         }
     }

@@ -6,7 +6,9 @@
 }
 .FindUs_content .FindUs_right {
   flex: 1 1;
-  transform: scale(0.8);
+}
+.FindUs_content .FindUs_right img {
+  width: 33rem;
 }
 .FindUs_content .FindUs_left {
   display: flex;
@@ -46,6 +48,7 @@
     line-height: 32px;
   }
   .FindUs_content .FindUs_right img {
-    width: 50rem;
+    width: 20rem;
+    margin-bottom: 2rem;
   }
 }
