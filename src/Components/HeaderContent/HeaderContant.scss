@@ -1,7 +1,6 @@
 @import "../../shared/Styles.scss";
 .header_content {
-      background:$--color-black;
-
+    background:$--color-black;
     padding: 3rem;
     font-family: $--font-alt;
     display: flex;
@@ -29,11 +28,11 @@
 
 @media screen and (max-width:768px) {
     .header_content{
-        margin: 5rem 0;
+        padding: 5rem 2rem;
         display: flex;
         flex-direction: column;
         gap: 3rem;
-        padding: 0 2rem;
+      
 
         .header_left{
             display: flex;
