@@ -1,0 +1,23 @@
+.wrraper {
+  width: 20rem;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+.wrraper h1 {
+  font-family: "Cormorant Upright", serif;
+  font-size: 3rem;
+}
+.wrraper ul li .price {
+  display: flex;
+  align-items: center;
+}
+.wrraper ul li .price div {
+  width: 60px;
+  height: 1px;
+  background-color: #DCCA87;
+  margin-right: 10px;
+}
+.wrraper ul li .menu__dec {
+  color: #545454;
+  font-family: "Open Sans", sans-serif;
+}

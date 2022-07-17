@@ -1,0 +1,13 @@
+@import "../../shared/Styles.scss";
+
+.header_left{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    flex: 1 1;
+   h1{
+    font-family: $--font-base;
+    color: $--color-golden;
+    font-size: 45px;
+   }
+}

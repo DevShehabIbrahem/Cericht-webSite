@@ -7,16 +7,15 @@ gulp.task("sass", async () => {
     .src("src/components/**/*.scss")
     .pipe(compile())
     .pipe(gulp.dest("src/css"));
-});
-gulp.task("jsxfile", async () => {
+
+  //moveing the scs fils To css Folder
+  gulp.src("src/*.scss").pipe(compile()).pipe(gulp.dest("src/css"));
+
+  //moveing the jsx fils To pages Folder
   gulp
     .src("src/components/**/*.jsx")
 
     .pipe(gulp.dest("src/pages"));
-});
-
-gulp.task("appsass", async () => {
-  gulp.src("src/*.scss").pipe(compile()).pipe(gulp.dest("src/css"));
 });
 
 gulp.task("watching", () => {

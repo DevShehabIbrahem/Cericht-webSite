@@ -13,6 +13,7 @@ export const words = {
     dec: "Sit Tellus Lobortis Sed Senectus Vivamus Molestie. Condimentum Volutpat Morbi Facilisis Quam Scelerisque Sapien. Et, Penatibus Aliquam Amet Tellus",
     buuton: "Explore Menu",
   },
+
   login: "Log In / Registration | Book Table",
   about_left: "About Us",
   about_dec_left:
@@ -21,4 +22,10 @@ export const words = {
 
   about_dec_right:
     "Adipiscing Tempus Ullamcorper Lobortis Odio Tellus Arcu Volutpat. Risus Placerat Morbi Volutpat Habitasse Interdum Mi Aliquam In Sed Odio Nec Aliquet.",
+  Titles: {
+    MenuSub: "Menu That Fits Your Palatte",
+    TagTitle: "Today 'S Special",
+  },
+  Menu_l: "Juice & Drinks",
+  Menu_r: "Cocktails",
 };

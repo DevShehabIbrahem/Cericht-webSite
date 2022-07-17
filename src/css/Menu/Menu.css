@@ -1,3 +1,21 @@
 .menu {
   background-color: #0C0C0C;
 }
+.menu .header_left {
+  align-items: center;
+  padding-top: 5rem;
+}
+.menu .menu_content img {
+  width: 20rem;
+}
+
+@media screen and (max-width: 990px) {
+  .menu .menu_content {
+    transform: scale(0.8);
+    flex-direction: column;
+  }
+  .menu .menu_content img {
+    width: 20rem;
+    margin: 0 auto;
+  }
+}

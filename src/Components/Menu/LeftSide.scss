@@ -1,0 +1,30 @@
+@import "../../shared/Styles.scss";
+.wrraper{
+    width: 20rem;
+    margin: 0 auto;
+    font-family: $--font-alt;
+    h1{
+        font-family: $--font-base;
+        font-size: 3rem;
+    }
+    ul{
+        li{
+            .price{
+                display: flex;
+                align-items: center;
+                div {
+                  
+                    width: 60px;
+                    height: 1px;
+                    background-color: $--color-golden;
+                    margin-right: 10px;
+                }
+            }
+            .menu__dec{
+                color: $--color-gray;
+                font-family: $--font-alt;
+            }
+        }
+    }
+
+}
