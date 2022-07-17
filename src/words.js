@@ -38,4 +38,8 @@ export const words = {
   chef_postion: "Chef & Founder",
   awardsTitle: "Awards & Recognition",
   awardsdec: "Our Laurels",
+  Instagram: "Instagram",
+  instaTitle: "Photo Gallery",
+  instaPara:
+    "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Volutpat Mattis Ipsum Turpis Elit Elit Scelerisque Egestas Mu.",
 };
