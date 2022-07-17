@@ -7,6 +7,7 @@ import {
   VideoSection,
   Awardssection,
   Gallery,
+  FindUs,
 } from "../../Components";
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <VideoSection />
       <Awardssection />
       <Gallery />
+      <FindUs />
     </>
   );
 };

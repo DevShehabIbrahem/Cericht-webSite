@@ -42,4 +42,11 @@ export const words = {
   instaTitle: "Photo Gallery",
   instaPara:
     "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Volutpat Mattis Ipsum Turpis Elit Elit Scelerisque Egestas Mu.",
+  finsUs: "FinsUs",
+  Contact: "Contact",
+  find_p: "Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 75G",
+  Opening_Hours: "Opening Hours",
+  Mon: "Mon - Fri: 10:00 Am - 02:00 Am",
+  sat: "Sat - Sun: 10:00 Am - 03:00 Am",
+  visitUs: "Visit Us",
 };

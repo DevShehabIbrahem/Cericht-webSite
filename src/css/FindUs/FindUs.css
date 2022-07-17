@@ -1,0 +1,51 @@
+.FindUs_content {
+  display: flex;
+  align-items: center;
+  padding: 6rem;
+  font-family: "Open Sans", sans-serif;
+}
+.FindUs_content .FindUs_right {
+  flex: 1 1;
+  transform: scale(0.8);
+}
+.FindUs_content .FindUs_left {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  flex: 1 1;
+}
+.FindUs_content .FindUs_left .Opening {
+  color: #DCCA87;
+  font-family: "Cormorant Upright", serif;
+  font-size: 1.7rem;
+}
+.FindUs_content .FindUs_left h1 {
+  font-family: "Cormorant Upright", serif;
+  color: #DCCA87;
+  font-size: 4.4rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 990px) {
+  .FindUs_content {
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    padding: 0 2rem;
+  }
+  .FindUs_content .FindUs_left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .FindUs_content .FindUs_left h1 {
+    font-size: 2rem;
+  }
+  .FindUs_content .FindUs_left span {
+    line-height: 32px;
+  }
+  .FindUs_content .FindUs_right img {
+    width: 50rem;
+  }
+}
