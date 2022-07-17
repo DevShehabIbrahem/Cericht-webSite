@@ -1,0 +1,72 @@
+@import "../../shared/Styles.scss";
+.chef_content {
+      
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    font-family: $--font-alt;
+   
+ .chef_right{
+    flex: 1 1;
+    transform: scale(0.8);
+    
+ }
+
+    .chef_left{
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+        flex: 1 1;
+      
+       h1{
+        font-family: $--font-base;
+        color: $--color-golden;
+        font-size: 4.4rem;
+        font-weight: 600;
+       }
+      
+    }
+
+       .chef_name{
+        span:nth-child(1){
+            color:$--color-golden;
+         
+        }
+    }
+    
+    }
+
+
+
+@media screen and (max-width:768px) {
+    .chef_content{
+        margin: 5rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        padding: 0 2rem;
+
+        .chef_left{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            h1{
+                font-size: 2rem;
+            }
+            span{
+                line-height: 32px;
+            }
+        }
+
+        .chef_right{
+            img{
+                width: 20rem;
+            }
+        }
+    }
+}
+
+
+
+

@@ -10,9 +10,9 @@ const Menu = () => {
   return (
     <div className="menu">
       <HeaderTitle hTitle={TagTitle} subTitle={MenuSub} />
-      <div className="menu_content flex justify-around">
+      <div className="menu_content flex justify-between">
         <LeftSide />
-        <img src={MenuImage} alt="" />
+        <img src={MenuImage} alt="" className=" py-5 md:p-0" />
         <Right />
       </div>
     </div>
