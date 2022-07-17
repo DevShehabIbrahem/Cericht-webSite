@@ -3,7 +3,7 @@ import logo from "../../assets/gericht.png";
 import { words } from "../../words";
 import { NavLink } from "react-router-dom";
 import { isActiveStyle, isNotActiveStyle } from "../../shared/ActiveStyle";
-
+import { GiHamburgerMenu } from "react-icons/gi";
 const Header = () => {
   const { Home, About, Awords, Contact, Menue } = words.Navbar;
   const { login } = words;
@@ -55,6 +55,9 @@ const Header = () => {
         >
           {Contact}
         </NavLink>
+      </div>
+      <div>
+        <GiHamburgerMenu />
       </div>
 
       <div className=" hidden  md:flex text-[1.2rem] hover:text-[#DCCA87] transition-all duration-200 ease-in-out cursor-pointer">
