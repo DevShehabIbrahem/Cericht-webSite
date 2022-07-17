@@ -1,10 +1,13 @@
+import { useState } from "react";
 import "../../css/Header/Header.css";
 import logo from "../../assets/gericht.png";
 import { words } from "../../words";
+import MobileMenu from "../../Components/mobileMenu/MobileMenu";
 import { NavLink } from "react-router-dom";
 import { isActiveStyle, isNotActiveStyle } from "../../shared/ActiveStyle";
 import { GiHamburgerMenu } from "react-icons/gi";
 const Header = () => {
+  const [show, setShow] = useState(false);
   const { Home, About, Awords, Contact, Menue } = words.Navbar;
   const { login } = words;
 
@@ -14,7 +17,7 @@ const Header = () => {
         <img src={logo} alt="logo" />
       </div>
 
-      <div className="hidden  md:flex  items-center text-[1.2rem]">
+      <div className="hidden  lg:flex  items-center text-[1.2rem]">
         <NavLink
           to="/"
           className={({ isActive }) =>
@@ -56,11 +59,15 @@ const Header = () => {
           {Contact}
         </NavLink>
       </div>
-      <div>
+      <MobileMenu show={show} setShow={setShow} />
+      <div
+        className="flex text-[2.2rem] cursor-pointer lg:hidden"
+        onClick={() => setShow(!show)}
+      >
         <GiHamburgerMenu />
       </div>
 
-      <div className=" hidden  md:flex text-[1.2rem] hover:text-[#DCCA87] transition-all duration-200 ease-in-out cursor-pointer">
+      <div className=" hidden  lg:flex text-[1.2rem] hover:text-[#DCCA87] transition-all duration-200 ease-in-out cursor-pointer">
         {login}
       </div>
     </nav>

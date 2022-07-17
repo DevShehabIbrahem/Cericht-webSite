@@ -4,7 +4,7 @@ import Button from "../../shared/Button/Button.js";
 import "../../css/Newsletter/Newsletter.css";
 const Newsletter = () => {
   return (
-    <div className="Newsletter">
+    <div className="Newsletter" id="Contcant">
       <HeaderTitle hTitle="Subscribe To Our Newsletter" subTitle="Newsletter" />
       <span>And Never Miss Latest Updates!</span>
       <div className="flex items-center gap-2">

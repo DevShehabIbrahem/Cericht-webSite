@@ -8,7 +8,7 @@ import MenuImage from "../../assets/menu.png";
 const Menu = () => {
   const { TagTitle, MenuSub } = words.Titles;
   return (
-    <div className="menu">
+    <div className="menu" id="menu">
       <HeaderTitle hTitle={TagTitle} subTitle={MenuSub} />
       <div className="menu_content flex justify-between">
         <LeftSide />

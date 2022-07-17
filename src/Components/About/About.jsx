@@ -7,7 +7,7 @@ import Button from "../../shared/Button/Button";
 const About = () => {
   const { about_dec_left, about_right, about_dec_right, about_left } = words;
   return (
-    <div className="about_wrraper">
+    <div className="about_wrraper" id="About">
       {/*about_content*/}
       <div className="about_content">
         {/*about_image_g*/}

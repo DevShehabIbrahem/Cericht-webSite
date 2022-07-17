@@ -8,7 +8,7 @@ const Awards = () => {
   const { awardsdec, awardsTitle } = words;
   return (
     <>
-      <div className="Awards_content">
+      <div className="Awards_content" id="Awards">
         {/*right Side*/}
         <div className="Awards_left">
           <div>
