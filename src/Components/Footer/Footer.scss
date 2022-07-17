@@ -1,0 +1,30 @@
+@import "../../shared/Styles.scss";
+.Footer{
+
+    .Footer__content{
+    div{
+        gap: 1rem;
+        text-align: center;
+        font-family: $--font-alt;
+        font-size: 1rem;
+        h1{
+            font-family: $--font-base;
+            font-size: 3rem;
+        }
+    }
+}
+.copyRight{
+    font-size: 1.3rem;
+    font-family: $--font-alt;
+  
+    line-height: 6;
+}
+}
+@media screen and (max-width:990px) {
+    .Footer{
+
+        .Footer__content{
+           flex-direction: column;
+            }
+    }
+}
