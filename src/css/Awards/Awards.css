@@ -1,0 +1,65 @@
+.Awards_content {
+  display: flex;
+  align-items: center;
+  padding: 6rem;
+  font-family: "Open Sans", sans-serif;
+}
+.Awards_content .Awards_right {
+  flex: 1 1;
+  transform: scale(0.8);
+}
+.Awards_content .Awards_left {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  flex: 1 1;
+}
+.Awards_content .Awards_left h1 {
+  font-family: "Cormorant Upright", serif;
+  color: #DCCA87;
+  font-size: 4.4rem;
+  font-weight: 600;
+}
+.Awards_content .Awards_left .Awards_info {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.Awards_content .Awards_left .Awards_info img {
+  width: 4rem;
+}
+.Awards_content .Awards_left .Awards_info div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.Awards_content .Awards_left .Awards_info div span {
+  color: #DCCA87;
+}
+.Awards_content .Awards_left .Awards_info div p {
+  color: #545454;
+}
+
+@media screen and (max-width: 990px) {
+  .Awards_content {
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    padding: 0 2rem;
+  }
+  .Awards_content .Awards_left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .Awards_content .Awards_left h1 {
+    font-size: 2rem;
+  }
+  .Awards_content .Awards_left span {
+    line-height: 32px;
+  }
+  .Awards_content .Awards_right img {
+    width: 50rem;
+  }
+}

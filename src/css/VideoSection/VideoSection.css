@@ -1,6 +1,7 @@
 .videosrction {
   position: relative;
   overflow: hidden;
+  padding: 2rem 0;
 }
 .videosrction::after {
   content: "";

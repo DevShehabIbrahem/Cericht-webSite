@@ -1,5 +1,5 @@
 export { default as AboutSection } from "../pages/AboutSection.jsx";
-export { default as Awards } from "./Awards/Awards.jsx";
+export { default as Awardssection } from "../pages/Awardssection/Awardssection.jsx";
 export { default as Chefs } from "./Chefs/Chefs.jsx";
 export { default as Contact } from "./Contact/Contact.jsx";
 export { default as Gallery } from "./Gallery/Gallery.jsx";
