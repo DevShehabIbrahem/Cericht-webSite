@@ -28,4 +28,12 @@ export const words = {
   },
   Menu_l: "Juice & Drinks",
   Menu_r: "Cocktails",
+  chef_word: "Chef's Word",
+  chef_title: "What We Believe In",
+  chef_qute:
+    "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit Auctor Sit .",
+  chef_para:
+    "Auctor Sit Iaculis In Arcu. Vulputate Nulla Lobortis Mauris Eget Sit. Nulla Scelerisque Scelerisque Congue Ac Consequat, Aliquam Molestie Lectus Eu. Congue Iaculis Integer Curabitur Semper Sit Nunc.",
+  chef_name: "Kevin Luo",
+  chef_postion: "Chef & Founder",
 };
