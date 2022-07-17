@@ -49,4 +49,17 @@ export const words = {
   Mon: "Mon - Fri: 10:00 Am - 02:00 Am",
   sat: "Sat - Sun: 10:00 Am - 03:00 Am",
   visitUs: "Visit Us",
+  Footer: {
+    Contact_Us: "Contact Us",
+    address: "9 W 53rd St, New York, NY 10019, USA",
+    num: "+1 212-344-1230",
+    logodec:
+      "The Best Way To Find Yourself Is To Lose Yourself In The Service Of Others.",
+    Working: "Working Hours",
+    day: "Monday-Friday:",
+    clock: "08:00 Am - 12:00 Am",
+    day2: "Saturday-Sunday:",
+    clock2: "07:00 Am - 11:00 Pm",
+    copyRight: "2021 Gericht. All Rights Reserved",
+  },
 };

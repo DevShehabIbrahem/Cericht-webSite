@@ -9,6 +9,7 @@ import {
   Gallery,
   FindUs,
   Newsletter,
+  Footer,
 } from "../../Components";
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <Gallery />
       <FindUs />
       <Newsletter />
+      <Footer />
     </>
   );
 };

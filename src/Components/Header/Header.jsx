@@ -1,10 +1,13 @@
+import { useState } from "react";
 import "../../css/Header/Header.css";
 import logo from "../../assets/gericht.png";
 import { words } from "../../words";
 import { NavLink } from "react-router-dom";
 import { isActiveStyle, isNotActiveStyle } from "../../shared/ActiveStyle";
+import MobileMenu from "../../Components/mobileMenu/MobileMenu";
 
 const Header = () => {
+  const [show, setShow] = useState(false);
   const { Home, About, Awords, Contact, Menue } = words.Navbar;
   const { login } = words;
 
@@ -56,7 +59,8 @@ const Header = () => {
           {Contact}
         </NavLink>
       </div>
-
+      {/*menuMobile*/}
+      <MobileMenu show={show} />
       <div className=" hidden  md:flex text-[1.2rem] hover:text-[#DCCA87] transition-all duration-200 ease-in-out cursor-pointer">
         {login}
       </div>

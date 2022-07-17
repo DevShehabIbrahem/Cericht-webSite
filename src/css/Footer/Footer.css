@@ -1,0 +1,21 @@
+.Footer .Footer__content div {
+  gap: 1rem;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+.Footer .Footer__content div h1 {
+  font-family: "Cormorant Upright", serif;
+  font-size: 3rem;
+}
+.Footer .copyRight {
+  font-size: 1.3rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 6;
+}
+
+@media screen and (max-width: 990px) {
+  .Footer .Footer__content {
+    flex-direction: column;
+  }
+}
