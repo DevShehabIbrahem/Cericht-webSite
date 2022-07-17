@@ -8,6 +8,7 @@ import {
   Awardssection,
   Gallery,
   FindUs,
+  Newsletter,
 } from "../../Components";
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <Awardssection />
       <Gallery />
       <FindUs />
+      <Newsletter />
     </>
   );
 };

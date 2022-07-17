@@ -44,7 +44,7 @@
   .Awards_content {
     margin: 5rem 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 0rem;
     padding: 0 2rem;
   }
