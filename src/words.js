@@ -36,4 +36,6 @@ export const words = {
     "Auctor Sit Iaculis In Arcu. Vulputate Nulla Lobortis Mauris Eget Sit. Nulla Scelerisque Scelerisque Congue Ac Consequat, Aliquam Molestie Lectus Eu. Congue Iaculis Integer Curabitur Semper Sit Nunc.",
   chef_name: "Kevin Luo",
   chef_postion: "Chef & Founder",
+  awardsTitle: "Awards & Recognition",
+  awardsdec: "Our Laurels",
 };

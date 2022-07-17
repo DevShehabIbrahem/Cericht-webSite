@@ -5,6 +5,7 @@ import {
   Menupages,
   Chefs,
   VideoSection,
+  Awardssection,
 } from "../../Components";
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Menupages />
       <Chefs />
       <VideoSection />
+      <Awardssection />
     </>
   );
 };
