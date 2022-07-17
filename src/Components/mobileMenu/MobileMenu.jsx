@@ -15,7 +15,7 @@ const MobileMenu = ({ show, setShow }) => {
         X
       </span>
       <li>
-        <Link to="home" spy={true} smooth={true}>
+        <Link to="Home" spy={true} smooth={true}>
           {Home}
         </Link>
       </li>
@@ -25,12 +25,12 @@ const MobileMenu = ({ show, setShow }) => {
         </Link>
       </li>
       <li>
-        <Link to="Awords" spy={true} smooth={true}>
+        <Link to="Awards" spy={true} smooth={true}>
           {Awords}
         </Link>
       </li>
       <li>
-        <Link to="Menue" spy={true} smooth={true}>
+        <Link to="menu" spy={true} smooth={true}>
           {Menue}
         </Link>
       </li>

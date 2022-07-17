@@ -1,7 +1,7 @@
 .Gallery_content {
   display: flex;
   align-items: center;
-  padding: 6rem;
+  padding: 0 6rem;
   font-family: "Open Sans", sans-serif;
 }
 .Gallery_content .Gallery_right {

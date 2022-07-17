@@ -17,7 +17,7 @@ const Header = () => {
         <img src={logo} alt="logo" />
       </div>
 
-      <div className="hidden  lg:flex  items-center text-[1.2rem]">
+      <div className="hidden lg:flex items-center text-[1.2rem]">
         <NavLink
           to="/"
           className={({ isActive }) =>
