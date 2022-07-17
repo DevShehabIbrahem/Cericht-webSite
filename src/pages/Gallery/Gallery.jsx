@@ -6,7 +6,7 @@ import rightArrow from "../../assets/rightArrow.png";
 import { words } from "../../words";
 import { motion } from "framer-motion";
 import HeaderTitle from "../../shared/headerTitle/HeaderTitle";
-
+import Button from "../../shared/Button/Button";
 const Gallery = () => {
   const transition = { type: "spring", duration: 3 };
 
@@ -27,6 +27,7 @@ const Gallery = () => {
             <HeaderTitle hTitle={instaTitle} subTitle={Instagram} />
           </div>
           <p>{instaPara}</p>
+          <Button>View More</Button>
         </div>
 
         {/*left Side*/}

@@ -1,0 +1,63 @@
+@import "../../shared/Styles.scss";
+
+.Newsletter{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+background-color: $--color-black;
+padding:  2rem 2rem;
+max-width:60rem;
+margin: 0 auto;
+border: 2px solid $--color-golden;
+
+div{
+    width: 100%;  
+    padding: 0 2rem;   
+    .input-sub{
+      height: 2.6rem; 
+      width: 100%;
+      outline: none;
+      background: none;
+      border: 1px solid $--color-golden;
+     
+    }
+    button{
+      
+        height: 2.6rem; 
+    }
+}
+.header_left{
+    align-items: center;
+    
+}
+
+
+}
+@media screen and (max-width:900px) {
+    .Newsletter{
+       
+        text-align: center;
+       
+        div{
+            
+            .input-sub{
+              height: 2.6rem; 
+              outline: none;
+             
+            }
+            button{
+                padding: 0;
+                width: 100px;
+                height: 2.6rem; 
+            }
+        }
+        .header_left{
+            align-items: center;
+            h1{
+                font-size: 2rem;
+            }
+        }
+
+    }
+}
