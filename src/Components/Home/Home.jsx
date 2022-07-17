@@ -4,6 +4,7 @@ import {
   AboutSection,
   Menupages,
   Chefs,
+  VideoSection,
 } from "../../Components";
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <AboutSection />
       <Menupages />
       <Chefs />
+      <VideoSection />
     </>
   );
 };

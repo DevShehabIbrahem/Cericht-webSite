@@ -11,6 +11,7 @@
     "gulp-sass": "^5.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.7",
@@ -19,7 +20,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "reusble":" gulp reusble",
+    "reusble": " gulp reusble",
     "gulp": " gulp sass",
     "watching": "gulp watching",
     "start": "react-scripts start",
