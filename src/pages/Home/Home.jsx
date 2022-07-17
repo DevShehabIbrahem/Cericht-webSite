@@ -6,6 +6,7 @@ import {
   Chefs,
   VideoSection,
   Awardssection,
+  Gallery,
 } from "../../Components";
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Chefs />
       <VideoSection />
       <Awardssection />
+      <Gallery />
     </>
   );
 };
